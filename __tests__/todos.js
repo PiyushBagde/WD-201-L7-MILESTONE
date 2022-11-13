@@ -1,8 +1,3 @@
-/* eslint-disable dot-notation */
-/* eslint-disable comma-dangle */
-/* eslint-disable no-undef */
-/* eslint-disable semi */
-/* eslint-disable quotes */
 const request = require("supertest");
 
 const db = require("../models/index");

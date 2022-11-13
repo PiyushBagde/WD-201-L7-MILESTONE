@@ -1,9 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-unneeded-ternary */
-/* eslint-disable comma-dangle */
-/* eslint-disable quotes */
-/* eslint-disable semi */
-
 const express = require("express");
 const app = express();
 const { Todo } = require("./models");
@@ -30,9 +24,6 @@ app.get("/", async (request, response) => {
   }
 });
 
-// app.get("/", function (request, response) {
-//   response.send("Hello World");
-// });
 app.get("/", function (request, response) {
   console.log("Todo list", request.body);
 });
