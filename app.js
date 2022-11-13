@@ -9,7 +9,6 @@ const app = express();
 const { Todo } = require("./models");
 const bodyParser = require("body-parser");
 const { request } = require("express");
-const { agent } = require("supertest");
 const path = require("path");
 
 app.use(bodyParser.json());
