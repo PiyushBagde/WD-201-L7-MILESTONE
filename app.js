@@ -1,8 +1,11 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable no-unneeded-ternary */
+/* eslint-disable semi */
+/* eslint-disable quotes */
 const express = require("express");
 const app = express();
 const { Todo } = require("./models");
 const bodyParser = require("body-parser");
-const { request } = require("express");
 const path = require("path");
 
 app.use(bodyParser.json());
